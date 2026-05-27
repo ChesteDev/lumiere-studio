@@ -34,3 +34,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Claude Code
+.claude/
+
+# Old image folders (moved to public/)
+publicimagesgallery/
+publicimageshero/
+publicimagesphilosophy/
+publicimagesservices/
+publicimagessignature/
+publicimagesteam/

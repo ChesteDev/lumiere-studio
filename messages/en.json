@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "ritual": "Ritual",
+    "contact": "Contact",
+    "cta": "Book now"
+  },
+  "hero": {
+    "badge": "Valencia · Est. 2024",
+    "headline_1": "Beauty",
+    "headline_2": "that",
+    "headline_3": "transcends.",
+    "subtitle": "High-level aesthetic experiences in the heart of Valencia.",
+    "cta_primary": "Book now",
+    "cta_secondary": "View services"
+  },
+  "philosophy": {
+    "label": "OUR PHILOSOPHY",
+    "heading": "The art of care is learned. The passion to transform comes from within.",
+    "body": "At Lumière Studio we believe that authentic beauty emerges when professional care meets inner wellbeing. Every ritual we offer is designed to awaken your best self, with eco-certified products and cutting-edge techniques.",
+    "stat1_value": "8+",
+    "stat1_label": "years of experience",
+    "stat2_value": "2,400+",
+    "stat2_label": "satisfied clients",
+    "stat3_value": "100%",
+    "stat3_label": "eco-certified products"
+  },
+  "services": {
+    "label": "SERVICES",
+    "heading": "Rituals designed for every moment.",
+    "intro": "From precision facial treatments to total indulgence body rituals. Every service is an experience designed to transform.",
+    "duration": "Duration",
+    "from": "from",
+    "book": "Book"
+  },
+  "signature": {
+    "label": "EXCLUSIVE RITUAL",
+    "heading": "The Grand Lumière Ritual",
+    "body": "Our pinnacle experience: a three-hour sensory journey combining advanced facial cleansing, body massage with first-extraction oils and a nourishing shea butter and gold wrap. Designed for those who deserve the best.",
+    "detail1": "3 hours of total experience",
+    "detail2": "100% premium natural products",
+    "detail3": "Includes champagne welcome",
+    "price": "from €220",
+    "cta": "Book this ritual"
+  },
+  "gallery": {
+    "label": "GALLERY",
+    "heading": "The space where everything happens.",
+    "alt1": "Lumière Studio salon reception",
+    "alt2": "Individual treatment room",
+    "alt3": "Premium waiting lounge",
+    "alt4": "Luxury products",
+    "alt5": "Facial treatment close-up",
+    "alt6": "Studio exterior"
+  },
+  "testimonials": {
+    "heading": "What our clients say."
+  },
+  "team": {
+    "label": "OUR TEAM",
+    "heading": "Experts in the art of wellbeing."
+  },
+  "process": {
+    "heading": "Your experience starts here.",
+    "step1_title": "Choose your ritual",
+    "step1_desc": "Explore our catalogue and select the treatment your body needs.",
+    "step2_title": "Get in touch",
+    "step2_desc": "Message us on WhatsApp or use the form. We respond in under 2 hours.",
+    "step3_title": "Confirm your appointment",
+    "step3_desc": "You'll receive a confirmation email with all the details of your visit.",
+    "step4_title": "Experience it",
+    "step4_desc": "Arrive 10 minutes early and let go. The rest is our work."
+  },
+  "contact": {
+    "heading": "Book your appointment.",
+    "body": "We are here to create the perfect experience for you. Write to us and we will get back to you within 2 hours.",
+    "address": "Calle Colón 48, Valencia (Ensanche District)",
+    "phone": "+34 963 000 000",
+    "email": "hola@lumierestudio.es",
+    "hours": "Mon–Fri 9:00–20:00 · Sat 9:00–18:00",
+    "whatsapp_cta": "Message us on WhatsApp",
+    "form_name": "Full name",
+    "form_email": "Email",
+    "form_phone": "Phone (optional)",
+    "form_service": "Service of interest",
+    "form_message": "Message",
+    "form_submit": "Send message",
+    "form_sending": "Sending...",
+    "form_success": "Message sent. We'll contact you within 2h.",
+    "form_error": "Something went wrong. Please try again.",
+    "select_service": "Select a service",
+    "service_facial": "Premium Facial",
+    "service_masaje": "Lumière Ritual Massage",
+    "service_hidratacion": "Intensive Body Hydration",
+    "service_lifting": "Non-Invasive Facial Lifting",
+    "service_drenaje": "Manual Lymphatic Drainage",
+    "service_pareja": "Ritual for Two",
+    "service_otro": "Other"
+  },
+  "location": {
+    "heading": "Find us in Valencia.",
+    "address": "Calle Colón 48, 46004 Valencia",
+    "neighborhood": "Ensanche District · Valencia",
+    "metro": "Metro: Lines 3 & 5 — Colón (2 min walk)",
+    "bus": "Bus: 10, 11, 19 — Colón stop",
+    "parking": "Parking: Parking Colón (3 min walk)"
+  },
+  "footer": {
+    "tagline": "Beauty that transcends. Wellness that endures.",
+    "services_title": "Services",
+    "info_title": "Information",
+    "contact_title": "Contact",
+    "about": "About",
+    "privacy": "Privacy policy",
+    "legal": "Legal notice",
+    "copyright": "© 2024 Lumière Studio · Designed by DigiCheste",
+    "social_instagram": "Instagram",
+    "social_pinterest": "Pinterest",
+    "social_tiktok": "TikTok"
+  },
+  "whatsapp": {
+    "tooltip": "Message us",
+    "preloaded_message": "Hello, I'd like to book an appointment at Lumière Studio. Could you let me know your availability?"
+  }
+}

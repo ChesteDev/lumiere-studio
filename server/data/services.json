@@ -1,0 +1,100 @@
+{
+  "services": [
+    {
+      "id": "facial-premium",
+      "slug": "facial-premium",
+      "name": { "es": "Facial Premium", "en": "Premium Facial" },
+      "tagline": { "es": "Tu piel, redescubierta.", "en": "Your skin, rediscovered." },
+      "description": {
+        "es": "Tratamiento facial avanzado con tecnología de microdermoabrasión y principios activos de alta concentración. Resultados visibles desde la primera sesión.",
+        "en": "Advanced facial treatment with microdermabrasion technology and high-concentration active ingredients. Visible results from the first session."
+      },
+      "duration": "90 min",
+      "price": "desde 95€",
+      "priceEn": "from €95",
+      "category": "facial",
+      "featured": true,
+      "image": "/images/services/service-1.png"
+    },
+    {
+      "id": "masaje-ritual",
+      "slug": "masaje-ritual",
+      "name": { "es": "Masaje Ritual Lumière", "en": "Lumière Ritual Massage" },
+      "tagline": { "es": "Restaura tu equilibrio.", "en": "Restore your balance." },
+      "description": {
+        "es": "Masaje corporal profundo con aceites esenciales premium de origen orgánico. Combina técnicas suecas y ayurvédicas para una relajación total.",
+        "en": "Deep body massage with premium organic essential oils. Combines Swedish and Ayurvedic techniques for total relaxation."
+      },
+      "duration": "75 min",
+      "price": "desde 80€",
+      "priceEn": "from €80",
+      "category": "corporal",
+      "featured": true,
+      "image": "/images/services/service-6.png"
+    },
+    {
+      "id": "hidratacion-corporal",
+      "slug": "hidratacion-corporal",
+      "name": { "es": "Hidratación Corporal Intensiva", "en": "Intensive Body Hydration" },
+      "tagline": { "es": "Piel como seda.", "en": "Skin like silk." },
+      "description": {
+        "es": "Envolvimiento corporal con manteca de karité y ácido hialurónico. Exfoliación previa y mascarilla nutritiva. Efecto inmediato y duradero.",
+        "en": "Body wrap with shea butter and hyaluronic acid. Prior exfoliation and nourishing mask. Immediate and lasting effect."
+      },
+      "duration": "60 min",
+      "price": "desde 70€",
+      "priceEn": "from €70",
+      "category": "corporal",
+      "featured": false,
+      "image": "/images/services/service-3.png"
+    },
+    {
+      "id": "lifting-facial",
+      "slug": "lifting-facial",
+      "name": { "es": "Lifting Facial No Invasivo", "en": "Non-Invasive Facial Lifting" },
+      "tagline": { "es": "Años menos, sin cirugía.", "en": "Years younger, no surgery." },
+      "description": {
+        "es": "Combinación de radiofrecuencia, ultrasonidos y estimulación eléctrica para un lifting facial visible y duradero sin ninguna intervención.",
+        "en": "Combination of radiofrequency, ultrasound and electrical stimulation for visible and lasting facial lifting without any intervention."
+      },
+      "duration": "60 min",
+      "price": "desde 110€",
+      "priceEn": "from €110",
+      "category": "facial",
+      "featured": true,
+      "image": "/images/services/service-4.png"
+    },
+    {
+      "id": "drenaje-linfatico",
+      "slug": "drenaje-linfatico",
+      "name": { "es": "Drenaje Linfático Manual", "en": "Manual Lymphatic Drainage" },
+      "tagline": { "es": "Libera. Depura. Renueva.", "en": "Release. Purify. Renew." },
+      "description": {
+        "es": "Técnica de Vodder adaptada para reducir la retención de líquidos, mejorar la circulación y desinflamar el organismo.",
+        "en": "Vodder technique adapted to reduce fluid retention, improve circulation and reduce inflammation."
+      },
+      "duration": "60 min",
+      "price": "desde 65€",
+      "priceEn": "from €65",
+      "category": "corporal",
+      "featured": false,
+      "image": "/images/services/service-2.png"
+    },
+    {
+      "id": "ritual-pareja",
+      "slug": "ritual-pareja",
+      "name": { "es": "Ritual para Dos", "en": "Ritual for Two" },
+      "tagline": { "es": "El lujo de compartir.", "en": "The luxury of sharing." },
+      "description": {
+        "es": "Experiencia sensorial completa para dos personas: bienvenida con infusiones de autor, masaje en sala privada y envoltura nutritiva.",
+        "en": "Complete sensory experience for two: welcome with signature herbal teas, massage in private room, and nourishing wrap."
+      },
+      "duration": "120 min",
+      "price": "desde 180€",
+      "priceEn": "from €180",
+      "category": "experiencias",
+      "featured": true,
+      "image": "/images/services/service-5.png"
+    }
+  ]
+}

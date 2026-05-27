@@ -3,25 +3,98 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FDFAF5;
+  --foreground: #1C1810;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: auto; /* Lenis handles smooth scroll */
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* ── Selection color ── */
+::selection {
+  background: #D4A96A;
+  color: #1C1810;
+}
+
+/* ── Scrollbar (webkit) ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F7F0E4; }
+::-webkit-scrollbar-thumb { background: #B8AFA0; border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: #D4A96A; }
+
+/* ── Lenis smooth scroll ── */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: hidden; }
+.lenis.lenis-scrolling iframe { pointer-events: none; }
+
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .text-balance { text-wrap: balance; }
+
+  .container-pad {
+    padding-left: clamp(1.5rem, 5vw, 5rem);
+    padding-right: clamp(1.5rem, 5vw, 5rem);
+  }
+
+  @media (hover: none) {
+    .cursor-follower { display: none; }
+  }
+
+  /* Refined image treatment */
+  .img-luxury {
+    @apply object-cover object-center transition-transform duration-700 ease-out;
+  }
+
+  /* Editorial underline for links */
+  .link-editorial {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-gold-300 after:transition-all after:duration-300 hover:after:w-full;
+  }
+}
+
+@layer components {
+  .section-label {
+    @apply font-sans text-label text-gold-500 uppercase tracking-[0.18em];
+  }
+
+  .section-heading {
+    @apply font-cormorant text-display-lg text-stone-900 leading-[1.1];
+  }
+
+  /* ── Primary CTA — gold solid ── */
+  .btn-primary {
+    @apply inline-flex items-center gap-3 px-8 py-4
+           bg-gold-300 text-stone-900
+           font-sans font-medium text-sm tracking-wide
+           transition-colors duration-300 hover:bg-gold-400
+           cursor-pointer select-none;
+  }
+
+  /* ── Ghost on dark background ── */
+  .btn-ghost {
+    @apply inline-flex items-center gap-3 px-8 py-4
+           border border-white/40 text-white
+           font-sans font-medium text-sm tracking-wide
+           backdrop-blur-sm
+           transition-all duration-300 hover:border-white hover:bg-white/10
+           cursor-pointer select-none;
+  }
+
+  /* ── Ghost on light background ── */
+  .btn-ghost-dark {
+    @apply inline-flex items-center gap-3 px-8 py-4
+           border border-stone-300 text-stone-900
+           font-sans font-medium text-sm tracking-wide
+           transition-all duration-300 hover:border-gold-400 hover:text-gold-500
+           cursor-pointer select-none;
   }
 }
