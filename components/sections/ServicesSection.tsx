@@ -4,7 +4,7 @@ import { useTranslations, useLocale } from 'next-intl'
 import { motion } from 'framer-motion'
 import ServiceCard from '@/components/ui/ServiceCard'
 import { blurFadeIn, wordReveal, staggerSlow, staggerContainer, revealLine } from '@/lib/motion'
-import servicesData from '@/server/data/services.json'
+import servicesData from '@/lib/data/services.json'
 
 export default function ServicesSection() {
   const t = useTranslations('services')
