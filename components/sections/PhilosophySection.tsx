@@ -62,26 +62,28 @@ export default function PhilosophySection() {
     <section className="bg-cream-50 overflow-hidden">
 
       {/* ── Full-bleed two-panel layout ── */}
-      <div className="flex flex-col lg:flex-row lg:h-[88vh]">
+      <div className="flex flex-col lg:flex-row min-h-[88vh]">
 
-        {/* Image panel — bleeds to left edge, no padding, no borders */}
-        <motion.div
-          initial={{ opacity: 0, scale: 1.04 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1.2, ease: [0.25, 0.46, 0.45, 0.94] }}
-          viewport={{ once: true }}
-          className="relative w-full lg:w-[44%] min-h-[55vw] lg:min-h-0 lg:h-full flex-shrink-0 order-2 lg:order-1"
-        >
-          <Image
-            src="/images/philosophy/filosofia.png"
-            alt="Lumière Studio philosophy"
-            fill
-            className="object-cover object-center"
-            sizes="(max-width: 1024px) 100vw, 44vw"
-          />
-          {/* Right-side fade into cream */}
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent to-cream-50/15" />
-        </motion.div>
+        {/* Image panel wrapper — self-stretches; inner motion.div is absolute so Image fill has dimensions */}
+        <div className="relative w-full lg:w-[44%] min-h-[55vw] lg:min-h-0 flex-shrink-0 order-2 lg:order-1 self-stretch">
+          <motion.div
+            initial={{ opacity: 0, scale: 1.04 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.2, ease: [0.25, 0.46, 0.45, 0.94] }}
+            viewport={{ once: true }}
+            className="absolute inset-0"
+          >
+            <Image
+              src="/images/philosophy/filosofia.png"
+              alt="Lumière Studio philosophy"
+              fill
+              className="object-cover object-center"
+              sizes="(max-width: 1024px) 100vw, 44vw"
+            />
+            {/* Right-side fade into cream */}
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-cream-50/15" />
+          </motion.div>
+        </div>
 
         {/* Thin vertical divider — desktop only */}
         <div className="hidden lg:flex flex-col items-center justify-center w-px mx-0 relative">
@@ -100,7 +102,7 @@ export default function PhilosophySection() {
         {/* Content panel */}
         <div
           ref={contentRef}
-          className="flex-1 flex flex-col justify-center px-8 sm:px-12 lg:px-16 xl:px-20 py-16 lg:py-24 order-1 lg:order-2 lg:overflow-y-auto"
+          className="flex-1 flex flex-col justify-center px-8 sm:px-12 lg:px-16 xl:px-20 py-16 lg:py-24 order-1 lg:order-2"
         >
           {/* Label */}
           <motion.span
