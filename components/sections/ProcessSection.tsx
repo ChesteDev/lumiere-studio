@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl'
 import { motion } from 'framer-motion'
-import { wordReveal, staggerSlow, blurFadeIn } from '@/lib/motion'
+import { wordReveal, staggerSlow } from '@/lib/motion'
 
 export default function ProcessSection() {
   const t = useTranslations('process')

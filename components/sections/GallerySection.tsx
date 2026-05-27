@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { motion, AnimatePresence } from 'framer-motion'
-import { blurFadeIn, wordReveal, staggerSlow, revealLine } from '@/lib/motion'
+import { blurFadeIn, wordReveal, staggerSlow } from '@/lib/motion'
 
 type GalleryAltKey = 'alt1' | 'alt2' | 'alt3' | 'alt4' | 'alt5' | 'alt6'
 

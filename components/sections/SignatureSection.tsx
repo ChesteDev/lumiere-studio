@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useTranslations, useLocale } from 'next-intl'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
-import { blurFadeIn, wordReveal, staggerSlow, fadeInUp } from '@/lib/motion'
+import { blurFadeIn, wordReveal, staggerSlow } from '@/lib/motion'
 
 const details: Array<{ icon: React.ReactNode; key: 'detail1' | 'detail2' | 'detail3' }> = [
   {
